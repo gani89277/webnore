@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Infinoxa</title>
+  <link rel="stylesheet" href="web-style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">Infinoxa</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About Hero -->
+  <section class="hero about-hero">
+    <h1 class="hero-title">Who We Are</h1>
+  </section>
+
+  <!-- Mission & Vision -->
+  <section class="scroll-section about-content">
+    <div class="about-text">
+      <h2>Our Mission</h2>
+      <p>To build powerful, fast, and scalable websites that help brands grow, reach audiences, and convert visitors into customers.</p>
+
+      <h2>Our Vision</h2>
+      <p>To be a globally recognized digital agency known for creativity, speed, and outstanding results.</p>
+    </div>
+    <div class="about-image">
+      <img src="assets/about/team.jpg" alt="Team Working Together" />
+    </div>
+  </section>
+
+  <!-- Core Values -->
+  <section class="scroll-section mission-values">
+    <div>
+      <h3>Innovation</h3>
+      <p>We thrive on creating modern, forward-thinking solutions for every client.</p>
+    </div>
+    <div>
+      <h3>Speed</h3>
+      <p>We deliver fast-loading, high-performing websites with agility.</p>
+    </div>
+    <div>
+      <h3>Commitment</h3>
+      <p>We’re devoted to our clients’ success through close collaboration and transparency.</p>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section class="scroll-section team-preview">
+    <h2 class="section-title">Meet the Team</h2>
+    <div class="team-cards">
+      <div class="team-card">
+        <img src="assets/about/person1.jpg" alt="Team Member 1">
+        <h3>Aryan Gupta</h3>
+        <p>Founder & Lead Developer</p>
+      </div>
+      <div class="team-card">
+        <img src="assets/about/person2.jpg" alt="Team Member 2">
+        <h3>Divya Mehra</h3>
+        <p>UI/UX Designer</p>
+      </div>
+      <div class="team-card">
+        <img src="assets/about/person3.jpg" alt="Team Member 3">
+        <h3>Ravi Kumar</h3>
+        <p>SEO & Growth Strategist</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Infinoxa. All rights reserved.</p>
+  </footer>
+
+  <script src="animations.js"></script>
+  <script>
+    function toggleMenu() {
+      document.getElementById('navLinks').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
